@@ -1,0 +1,13 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/mytest?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+    username: root
+    password: 123456
+logging:
+  level:
+    root: warn
+    com.plato.mp.mapper: trace
+  pattern:
+    console: '%p%m%n'
